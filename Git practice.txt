@@ -1,6 +1,17 @@
 PUSHING A PROJECT INTO GITHUB
--> create a repositary in the github,copy the code given the repositary
+-> create a repositary in the github,copy the code given in the repositary.
 ->move to   the working directory
 ->git init->git add .->git commit -m "message"
 ->git remote add origin "copied link"(or) git remote add github "copied link"
-->git push origin master (or) git push github master 
+->git push origin master (or) git push github master
+
+-------------------*************************--------------
+CREATING  a file in the github and pulling it into the local remote
+git pull origin master (or) git pull github master
+
+----------------------------*****************************---------------
+AFTER DOING SOME CHANGES TO A FILE PUSH BACK TO THE GITHUB
+git add -A
+(it will show all the files which have inserted or delted all logs)
+git commit -m "msg"
+git push --set-upstream origin master
