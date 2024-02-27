@@ -1,5 +1,6 @@
 PUSHING A PROJECT INTO GITHUB
 -> create a repositary in the github,copy the code given in the repositary.
+hii how are you i am fine
 ->move to   the working directory
 ->git init->git add .->git commit -m "message"
 ->git remote add origin "copied link"(or) git remote add github "copied link"
